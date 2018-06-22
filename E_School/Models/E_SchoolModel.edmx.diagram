@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6082f4ec99804017a01ba968e8da5491" Name="Diagram1">
+        <EntityTypeShape EntityType="SSRSModel.Class" Width="1.5" PointX="10" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.ClassCategory" Width="1.5" PointX="7.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.Parent" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.School" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.SchoolCategory" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.Session" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.Student" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.StudentCategory" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.Subject" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.SubjectCategory" Width="1.5" PointX="5.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.sysdiagram" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.Term" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSRSModel.UserAccount" Width="1.5" PointX="5.75" PointY="10.125" IsExpanded="true" />
+        <AssociationConnector Association="SSRSModel.FK_Class_ClassCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_Student_Parent" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_School_SchoolCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_Student_School" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_Term_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_Student_StudentCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_Subject_SubjectCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SSRSModel.FK_Subject_UserAccount" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
